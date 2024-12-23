@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'quizapp/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Quiz App</h1>
+        <nav>
+            <a href="/start-quiz/">Start Quiz</a>
+            <a href="/login/">Login</a>
+            <a href="/signup/">Signup</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Learn, Test, and Compete!</h2>
+            <p>Challenge yourself with our curated quizzes and improve your knowledge.</p>
+            <a href="/start-quiz/" class="cta-button">Start Now</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Quiz App. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
