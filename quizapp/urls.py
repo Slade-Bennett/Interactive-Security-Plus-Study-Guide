@@ -1,6 +1,8 @@
 from django.urls import path
 from . import views
 
+# Comment goes here
+
 urlpatterns = [
     path('', views.landing, name='landing'),  # Homepage
     path('signup/', views.sign_up, name='signup'),  # Signup page
